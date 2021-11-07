@@ -31,7 +31,7 @@ class PicActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         if (id == R.id.action_one){
-            Toast.makeText(this, "Избранное", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Добавлено в Избранное", Toast.LENGTH_LONG).show()
         }
 
         return super.onOptionsItemSelected(item)
